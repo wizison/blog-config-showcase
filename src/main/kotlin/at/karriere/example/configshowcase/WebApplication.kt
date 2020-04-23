@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class ConfigshowcaseApplication
+class WebApplication
 
 fun main(args: Array<String>) {
-	runApplication<ConfigshowcaseApplication>(*args)
+	runApplication<WebApplication>(*args)
 }
