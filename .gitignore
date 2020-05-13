@@ -30,3 +30,7 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Spring local config ###
+config/
+!config/application.yml.example

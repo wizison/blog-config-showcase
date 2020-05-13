@@ -1,0 +1,5 @@
+## In this file you can override non profile specific settings
+
+logging:
+  level:
+    at.karriere: debug
