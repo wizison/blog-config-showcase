@@ -13,3 +13,6 @@ spring:
   output:
     ansi:
       enabled: always
+
+config-show-case:
+  welcome-message: Hello, this is the default welcome message
