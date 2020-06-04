@@ -15,6 +15,6 @@ class KarriereAtTimeService {
     }
 
     fun getCurrentTime(): LocalDateTime = LocalDateTime.now().also {
-        LOGGER.info("service '{}' called at '{}'.", javaClass.simpleName, it)
+        LOGGER.info("Service '{}' called at '{}'.", javaClass.simpleName, it)
     }
 }

@@ -30,6 +30,6 @@ class JobsAtConfig : InitializingBean {
 
 
     override fun afterPropertiesSet() {
-        LOGGER.info("Brand configuration {} loaded.", BrandProfiles.JOBS_AT)
+        LOGGER.info("Brand configuration '{}' loaded.", BrandProfiles.JOBS_AT)
     }
 }
